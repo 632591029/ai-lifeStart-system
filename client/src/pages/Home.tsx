@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ArrowRight, BarChart3, Brain, Code, Eye, Layers, Terminal, Zap } from "lucide-react";
 import { useState } from "react";
+import { useAuth } from "@/_core/hooks/useAuth";
 import { Bar, BarChart, CartesianGrid, Cell, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 // 模拟数据
